@@ -1,9 +1,5 @@
 <?php
 
-$sDatabaseFileName = '/Users/samuelgrau/Dropbox/IVD.db';
-$oDatabaseHandler = new SQlite3ToJSONConverter($sDatabaseFileName);
-var_dump($oDatabaseHandler->getJSONFromSQLite());
-
 /**
  * The aim of this class is to offer a transformation
  * of a SQLite database to its JSON stirng format equivalent
